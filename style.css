@@ -1,7 +1,7 @@
 
 /***********************************
 ************************************
-CSS RESET   
+CSS RESET
 ************************************
 ***********************************/
 html, body, div, span, applet, object, iframe,
@@ -13,8 +13,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -25,7 +25,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -43,7 +43,7 @@ body {
 ol, ul {
 
     list-style: none;
-    
+
 }
 blockquote, q {
     quotes: none;
@@ -102,23 +102,23 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
+  from { bottom:-100px; opacity:0 }
   to { bottom:0px; opacity:1 }
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
   to{ bottom:0; opacity:1 }
 }
 
 /***********************************
 ************************************
-HEADER 
+HEADER
 ************************************
 ***********************************/
 .header{
-    /*background: url('img/bg-banner02.jpg') no-repeat fixed;*/
-    /*background-size: cover;*/
+    background: url('img/bg-banner.jpg') no-repeat fixed;
+    background-size: cover;
     min-height: 650px;
     position: relative;
 }
@@ -669,7 +669,7 @@ cta
     background-color: rgb(73, 84, 105);
 }
 .cta .cta-info {
-    
+
     width: 100%;
     float: left;
     padding: 30px 25px 30px 15px;
