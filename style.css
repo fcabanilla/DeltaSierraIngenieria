@@ -800,3 +800,20 @@ body{
 .panel-transparent .panel-body{
     background: rgba(46, 51, 56, 0.2)!important;
 }
+/*#panel-bienvenida{
+  width: 200px;
+￼    position: absolute;
+￼    z-index: 20;
+￼    background-color: aquamarine;
+￼    right: 45%;
+￼    top: 45%;
+}*/
+.panel-bienvenida{
+￼    width: 200px!important;
+￼    position: absolute!important;
+￼    z-index: 20!important;
+￼    background-color: black!important;
+￼    opacity: 0.7!important;
+￼    right: 45%!important;
+￼    top: 45%!important;
+}
