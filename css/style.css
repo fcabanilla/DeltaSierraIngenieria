@@ -355,7 +355,7 @@ ul.service-list li i
     font-size: 39px;
     line-height: 1;
     text-transform: uppercase;
-    letter-spacing: -5px;
+    /*letter-spacing: -5px;*/
     font-weight: 900;
     padding-right: 6px;
 }
@@ -799,21 +799,4 @@ body{
 
 .panel-transparent .panel-body{
     background: rgba(46, 51, 56, 0.2)!important;
-}
-/*#panel-bienvenida{
-  width: 200px;
-￼    position: absolute;
-￼    z-index: 20;
-￼    background-color: aquamarine;
-￼    right: 45%;
-￼    top: 45%;
-}*/
-.panel-bienvenida{
-￼    width: 200px!important;
-￼    position: absolute!important;
-￼    z-index: 20!important;
-￼    background-color: black!important;
-￼    opacity: 0.7!important;
-￼    right: 45%!important;
-￼    top: 45%!important;
 }

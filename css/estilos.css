@@ -1,0 +1,9 @@
+.panel-bienvenida {
+    width: 200px;
+    position: absolute;
+    z-index: 20;
+    background-color: black;
+    opacity: 0.7;
+    right: 45%;
+    top: 45%;
+}
