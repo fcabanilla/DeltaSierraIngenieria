@@ -1,15 +1,40 @@
-.panel-bienvenida {
-    width: 200px;
+/*.panel-bienvenida {
+    width: 50%;
     position: absolute;
     z-index: 20;
     background-color: black;
     opacity: 0.7;
     right: 45%;
     top: 45%;
-}
+    hori
+    /*vertical-align: */
+
+    /*top: 50%;
+    right: 50%*/
+}*/
 #panel-inicial{
   border-color: #ddd;
   opacity: .7;
   margin-bottom: 0;
   margin-top: -100px;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid #f42828;*/
+    padding: 10px;
+    background-color: black;
+    opacity: .7;
+    position: relative;
+    z-index: 20;
+    vertical-align: middle;
+    top: 45%;
+}
+.Texto-Bienvenida{
+    font-family: 'Pacifico', cursive;
+    color: #d6ad10;
+    font-size: 30px;
+}
+.textoBlanco{
+    color: #ffffff
 }
