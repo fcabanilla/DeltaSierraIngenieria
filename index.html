@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
     <head>
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta name="description" content="Delta Sierra Ingeniería es un emprendimiento abocado a brindar soluciones, generar diseños, gestionar procesos en el ámbito de la industria mecánica y aeronáutica.">
+        <meta name="author" content="Federico Cabanilla">
 
         <title>Delta Sierra Ingeniería</title>
 
@@ -15,318 +15,29 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Fonts de Google -->
-        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="css/scrolling-nav.css" rel="stylesheet">
-        <link href="css/half-slider.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/estilos.css" rel="stylesheet">
-
 
     </head>
 
-    <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
-
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-        <!-- Navigation -->
-        <nav>
-            <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container">
-                    <div class="navbar-header page-scroll">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <img src="img/LogoDeltaSierra.png" alt="DeltaSierraLogo" class="navbar-brand navbar-logo">
-                    </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a class="page-scroll" href="#myCarousel">Home</a></li>
-                            <li class=""><a class="page-scroll" href="#Feature">Sobre Nosotros</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="page-scroll" href="#ServiceAeronautico">Aeronauticos</a></li>
-                                    <li><a class="page-scroll" href="#ServiceIndustrial">Industrial</a></li>
-                                </ul>
-                            </li>
-                            <li class=""><a class="page-scroll" href="#Contact">Contactenos</a></li>
-                        </ul>
-                    </div>
-                </div>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button class="navbar-taggle" type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Desplegar navegacion</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">Logotipo</a>
             </div>
         </nav>
 
-        <!-- HEADER -->
-        <header id="myCarousel" class="carousel slide">
-            <!-- Indicators -->
 
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-            </ol>
-
-            <!-- Wrapper for Slides -->
-
-            <div class="carousel-inner">
-
-
-                <div class="panel-bienvenida center">
-                    <div class="row">
-                        <!-- <div class="col-md-4 col-md-offset-4"> -->
-                        <div class="text-center">
-                            <!-- <h1 class="bnr-title titulo-principal"></h1> -->
-                            <h1 class="Texto-Bienvenida" style=" ">Delta Sierra Ingeniería</h1>
-                            <!-- <p class="bnr-para">Delta Sierra Ingeniería es un emprendimiento abocado a brindar soluciones, generar diseños, gestionar procesos en el ámbito de la industria mecánica y aeronáutica.</p> -->
-
-                        </div>
-                        <!-- </div> -->
-                    </div>
-                </div>
-
-
-
-                <div class="item active">
-                    <!-- Set the first background image using inline CSS below. -->
-                    <div class="fill" style="background-image:url('img/Slide/001.jpg');"></div>
-                    <div class="carousel-caption">
-                        <!-- <h2>Caption 1</h2> -->
-                    </div>
-                </div>
-                <div class="item">
-                    <!-- Set the second background image using inline CSS below. -->
-                    <div class="fill" style="background-image:url('img/Slide/002.jpg');"></div>
-                    <div class="carousel-caption">
-                        <!-- <h2>Caption 2</h2> -->
-                    </div>
-                </div>
-                <div class="item">
-                    <!-- Set the third background image using inline CSS below. -->
-                    <div class="fill" style="background-image:url('img/Slide/004.jpg');"></div>
-                    <div class="carousel-caption">
-                        <!-- <h2>Caption 3</h2> -->
-                    </div>
-                </div>
-                <div class="item">
-                    <!-- Set the third background image using inline CSS below. -->
-                    <div class="fill" style="background-image:url('img/Slide/006.jpg');"></div>
-                    <div class="carousel-caption">
-                        <!-- <h2>Caption 3</h2> -->
-                    </div>
-                </div>
-                <div class="item">
-                    <!-- Set the third background image using inline CSS below. -->
-                    <div class="fill" style="background-image:url('img/Slide/009.jpg');"></div>
-                    <div class="carousel-caption">
-                        <!-- <h2>Caption 3</h2> -->
-                    </div>
-                </div>
-            </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="icon-prev"></span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="icon-next"></span>
-            </a>
-
-        </header>
-        <!-- FIN HEADER -->
-
-        <!-- Intro Section -->
-        <section id="intro" class="intro-section">
-            <div class="wrapper">
-                <div class="container">
-                    <div class="row">
-                        <h1 class="bnr-title titulo-principal">delta sierra ingeniería<span></span></h1>
-                        <h2 class="bnr-sub-title">SERVICIOS DE INGENIERÍA EN AERONÁUTICA E INDUSTRIA</h2>
-                        <p class="bnr-para">Delta Sierra Ingeniería es un emprendimiento abocado a brindar soluciones, generar diseños, gestionar procesos en el ámbito de la industria mecánica y aeronáutica.
-                        <div class="overlay-detail">
-                            <a href="#feature"><i class="fa fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="Feature" class="feature-section">
-            <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <h2 class="service-title pad-bt15">¿Quienes Somos?</h2>
-                <hr class="bottom-line">
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="wrap-item text-center">
-                  <div class="item-img">
-                    <img src="img/Iconos/icono-ingenieria.png" style="height:100px; width:auto;">
-                  </div>
-                  <h3 class="pad-bt15"></h3>
-                  <p>La propuesta abarca tanto la solución de problemas puntuales, como el diseño, gestión y fabricación de productos en su totalidad, para ofrecer un servicio global y personalizado a fines de adaptarnos a usted y sus requerimientos.</p>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="wrap-item text-center">
-                  <div class="item-img" >
-                    <img src="img/Iconos/ingenieria.png" style="height:100px; width:auto;">
-                  </div>
-                  <h3 class="pad-bt15"></h3>
-                  <p>Contando con amplios conocimientos en variadas herramientas informáticas, indispensables para el mercado actual, puestas a su disposición.</p>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="wrap-item text-center">
-                  <div class="item-img">
-                    <img src="img/Logo1.PNG" style="height:100px; width:auto;">
-                  </div>
-                  <h3 class="pad-bt15"></h3>
-                  <p>Nuestro objetivo principal es brindar un servicio en conjunto con el cliente de manera que se optimicen los tiempos y la calidad del producto final, contando con todas las herramientas disponibles y también una amplia agenda de proveedores.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </section>
-
-        <!-- Services Section -->
-        <section id="ServiceAeronautico" class="services-aero-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <hr class="bottom-line">
-                        <h2 class="service-title pad-bt15">SERVICIOS AERONÁUTICOS</h2>
-                        <hr class="bottom-line">
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="service-item">
-                            <h3><span>Gestoria</span></h3>
-                            <ul>
-                                <li>Tramites</li>
-                                <li>Carpeta Experimentales</li>
-                                <li>Matriculaciones</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="service-item">
-                            <h3><span>Asistecia</span></h3>
-                            <ul>
-                                <li>Análisis Estructural</li>
-                                <li>Análisis Aerodinamico</li>
-                                <li>Certificación</li>
-                                <li>Manuales Clasiscos y Digitales</li>
-                                <li>Planos</li>
-                                <li>Asistencia al Mantenimiento</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="service-item">
-                            <h3><span>Diseño</span></h3>
-                            <ul>
-                                <li>Parte y Componentes</li>
-                                <li>Informes Técnicos de Alteracion</li>
-                                <li>STC</li>
-                                <li>Diseño Conceptual y de Fabricación</li>
-                                <li>Alteraciones Mayores</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <section id="ServiceIndustrial" class="services-ind-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <hr class="bottom-line">
-                        <h2 class="service-title pad-bt15">Servicios Industriales</h2>
-                        <hr class="bottom-line">
-                        <p class="sub-title pad-bt15 textoBlanco">Centrados en las necesidades de la industria moderna, y acordes a las nuevas tecnologías, Delta Sierra Ingeniería, provee innovación en conjunto con acompañamiento profesional para lograr los objetivos en los proyectos que su negocio plantea</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="Contact" class="contact-section" >
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12 text-center white">
-                  <h2 class="service-title pad-bt15">Mantengase en Contacto</h2>
-                  <p class="sub-title pad-bt15">Ante cualquier tipo de duda, por favor, envienos un e-mail, con sus datos personales, y en la brevedad estaremos en contacto con usted.</p>
-                  <hr class="bottom-line white-bg">
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                  <div class="loction-info white">
-                    <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Direccion Fisica:<br>Cordoba Capital, Argentina CP: 5000</p>
-                    <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>deltasierraingenieria@gmail.com</p>
-                    <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+549-297-4701682</p>
-                  </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                  <div class="contact-form">
-                    <form>
-                      <div class="col-md-6 padding-right-zero">
-                        <div class="form-group">
-                          <input class="form-control" placeholder="Nombre y Apellido" type="text">
-                        </div>
-
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input class="form-control" placeholder="E-Mail" type="text">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input type="text" placeholder="Asunto del Mensaje (Opcional)" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input type="text" placeholder="Teléfono (Opcional)" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <textarea class="form-control" placeholder="Mensaje"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-submit">ENVIAR AHORA</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-              <footer id="footer">
-                <div class="container">
-                  <div class="row text-center">
-                    <p>Copyright &copy; 2016 Autor: <a href="">Federico Cabanilla.</a></p>
-                  </div>
-                </div>
-              </footer>
-            </div>
-        </section>
-
-        <!-- jQuery -->
-        <script src="js/jquery.js"></script>
-
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
-
-        <!-- Scrolling Nav JavaScript -->
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/scrolling-nav.js"></script>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
     </body>
 
 </html>
